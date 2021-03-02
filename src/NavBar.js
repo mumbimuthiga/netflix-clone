@@ -18,7 +18,7 @@ return(window.addEventListener("scroll" ,transistionNavBar))
         <div className={`nav ${show && "nav__black"}`}>
             <div className="nav__contents">
  <img className="nav__logo"
-src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+src="https://image.tmdb.org/t/p/original/wwemzKWzjKYJFfCeiB57q3r4Bcm.svg"
  alt="Netflix Logo"></img>
            
 <img className="nav__avatar"
