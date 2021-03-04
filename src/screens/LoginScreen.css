@@ -1,15 +1,29 @@
 .loginScreen{
  position: relative;
  height: 100%;
- background: url("https://i.imgur.com/WN8YaEH.png") center no-repeat;
+ background: url("https://dkr0pu7ej5xex.cloudfront.net/wp-content/uploads/2017/04/24135159/Netflix-Background.jpg") center no-repeat;
  background-size: cover;
+}
+.loginScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0, 0green,0 ,0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0 ,0) 60%,
+        rgba(0,0,0,0.8) 100%
+    );
 }
 .loginScreen__logo{
     position: fixed;
     left: 0;
+    top: 20px;
     width: 150px;
     object-fit: contain;
     padding-left: 20px;
+   
 }
 .loginScreen__button{
     position: fixed;
@@ -22,4 +36,30 @@
     font-weight: 600;
     cursor: pointer;
     border: none;
+}
+.loginScreen__body{
+    position: absolute;
+    top: 30%;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+   
+
+}
+h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+
 }
