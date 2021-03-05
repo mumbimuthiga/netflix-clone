@@ -55,6 +55,7 @@ h2{
     font-size: 2rem;
     margin-bottom: 30px;
     font-weight: 400;
+    margin-left: 80px;
    
 
 }
@@ -62,4 +63,18 @@ h3{
     font-size: 1.3rem;
     font-weight: 400;
 
+}
+.loginScreen__input >form >input{
+    padding: 10px;
+    outline-width: 0;
+    width: 30%;
+    height: 30px;
+    max-width: 600px;
+    border: none;
+}
+.loginScreen__getStarted{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
 }
